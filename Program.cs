@@ -6,14 +6,10 @@ namespace StarterProject
     {
         static void Main(string[] args)
         {
-            Console.Write(Cube(5));
-       
+            Movie avengers = new Movie("The Avengers", "Tim Scott", "PG-13");
+            Movie pablo = new Movie("Pablo", "Yaen Has", "R");
+            
         }
-
-        static int Cube(int num)
-        {
-            int result = num * num * num;
-            return result;
-        }
+      
     }
 }
